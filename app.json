@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "BoulderBoy",
+    "slug": "BoulderBoy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "https://raw.githubusercontent.com/ThatOwais/BoulderBoy/main/assets/images/climbing-hold.png",
+      "publicPath": "/BoulderBoy/"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
