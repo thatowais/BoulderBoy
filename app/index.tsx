@@ -24,7 +24,7 @@ export default function ClimbingChallengeGenerator() {
     ],
     constraints: [
       "MAX 3 POINTS OF CONTACT", "ONE HAND BEHIND", "NO MATCHING",
-      "30-SEC TIMER", "COLOR HOLDS ONLY", "NO LOOKING DOWN",
+      "30-SEC TIMER", "COLOR HOLDS ONLY", "NO LOOKING UP",
       "HOLD 3 SEC", "ELIMINATE ONE", "ONLY ONE FOOT",
       "SING WITHOUT PAUSE", "NO BREATHING", "CRAB WALK"
     ]

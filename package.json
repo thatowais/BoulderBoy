@@ -5,7 +5,10 @@
   "private": true,
   "scripts": {
     "dev": "EXPO_NO_TELEMETRY=1 expo start",
-    "build:web": "expo export -p web --output-dir docs",
+    "start": "expo start",
+    "build:web": "expo export -p web",
+    "predeploy": "npm run build:web",
+    "deploy": "gh-pages --nojekyll -d dist",
     "lint": "expo lint"
   },
   "dependencies": {

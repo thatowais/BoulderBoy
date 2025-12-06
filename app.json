@@ -10,8 +10,7 @@
     "newArchEnabled": true,
     "web": {
       "bundler": "metro",
-      "output": "single",
-      "publicPath": "/BoulderBoy/"
+      "output": "single"
     },
     "ios": {
       "supportsTablet": true
@@ -21,7 +20,7 @@
     ],
     "experiments": {
       "typedRoutes": true,
-      "baseUrl": "/BoulderBoy/"
+      "baseUrl": "/BoulderBoy"
     }
   }
 }
